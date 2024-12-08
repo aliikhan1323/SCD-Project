@@ -1,0 +1,331 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header/Nav Bar */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Hero Section */
+#home.hero {
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#home .display-4 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#home .lead {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#home .btn {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Services Section */
+#services {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+#services .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#services .card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+#services .card-body {
+  text-align: center;
+}
+
+#services .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#services .card-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+#services .btn {
+  font-size: 1.1rem;
+}
+
+/* Detailed Service Section */
+#service-detail {
+  padding: 80px 0;
+  background-color: #f1f1f1;
+}
+
+#service-detail h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#service-detail img {
+  width: 100%;
+  height: auto;
+}
+
+#service-detail h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#service-detail ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#service-detail ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#service-detail .btn {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#service-detail .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+#testimonials h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#testimonials .carousel-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#testimonials .carousel-item p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+#testimonials .carousel-item h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 80px 0;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#contact .form-group {
+  margin-bottom: 20px;
+}
+
+#contact .form-control {
+  font-size: 1.1rem;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+#contact .btn {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#contact .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+footer .container p {
+  font-size: 1rem;
+}
+
+footer .list-unstyled {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+footer .list-unstyled li {
+  margin: 0 15px;
+}
+
+footer .list-unstyled a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+footer .list-unstyled a:hover {
+  color: #007bff;
+}
+
+/* ==========================
+   Sign In and Sign Up Styles
+   ========================== */
+.auth-container {
+  margin: 50px auto;                /* More margin to create space from other content */
+  max-width: 400px;
+  padding: 30px;                    /* Increased padding for better spacing inside the container */
+  background: #fff;                 /* Solid white background */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);  /* Deeper shadow for a modern look */
+}
+
+.auth-form {
+  text-align: center;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;                  /* Larger font size for better readability */
+  font-weight: bold;
+}
+
+.auth-form input {
+  width: 100%;
+  margin: 12px 0;                   /* Increased margin between inputs */
+  padding: 12px;                    /* Larger padding for better input experience */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;                  /* Larger font size for input */
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;                    /* Larger padding for better clickability */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;                  /* Larger font size for the button */
+  cursor: pointer;                 /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;  /* Smooth transition for background color */
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;         /* Darker button color on hover */
+}
+
+.auth-form p {
+  margin-top: 15px;
+  font-size: 14px;                  /* Smaller font for the text */
+}
+
+.auth-form a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;                /* Bold link for better visibility */
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  #home .display-4 {
+      font-size: 2.5rem;
+  }
+
+  #home .lead {
+      font-size: 1rem;
+  }
+
+  #services h2 {
+      font-size: 2rem;
+  }
+
+  #service-detail h2 {
+      font-size: 2rem;
+  }
+
+  #testimonials h2 {
+      font-size: 2rem;
+  }
+
+  footer .container p {
+      font-size: 0.9rem;
+  }
+}
